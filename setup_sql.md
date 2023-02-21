@@ -5,6 +5,7 @@
 `create database logindb;`
 
 ```
+USE logindb
 CREATE TABLE users (
      id SMALLINT NOT NULL AUTO_INCREMENT,
      email varchar(100) NOT NULL ,
